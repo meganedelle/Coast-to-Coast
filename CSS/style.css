@@ -21,7 +21,6 @@ body nav p {
 
 
 body nav {
-	text-align: center;
 	 display: inline;
 }
 
@@ -29,20 +28,21 @@ body nav {
   width: 100%;
   background-color: #c3d0d2;
   overflow: auto; 
-  text-align: center
+  text-align: center;
 }
 
 /* Navigation links */
 
 
-.navbar p {
+a {
   float: center;
   padding: 75px;
   color: #0f1420;
   text-decoration: none;
   font-size: 18px;
+  font-weight: bold;
   width: 18%; 
-  text-align: center; 
+  text-align: center;
 }
 
 /* Add a background color on mouse-over */
@@ -63,8 +63,18 @@ body nav {
 
 .menu-layout {
     text-align: center;
+    color: #0f1420;
+}
+
+.ul {
+    list-style: none;
+    line-height: 1.5em;
+    font-size: 16px;
 }
 
 hr {
-    width: 50% 
+    width: 40%; 
+    border-color: #2f4456;
 }
+
+/* Mobile */
