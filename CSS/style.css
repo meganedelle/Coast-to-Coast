@@ -4,4 +4,67 @@ ul {
     list-style: none;
 }
 
+/* Style the logo-header */
+
+
+body header {
+    text-align: center;
+}
+
+/* Style the navigation menu */
+
+
+body nav p {
+    display: inline;
+	font-family: "Avenir Heavy", "Avenir Black",    "Avenir Light";
+}
+
+
+body nav {
+	text-align: center;
+	 display: inline;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #c3d0d2;
+  overflow: auto; 
+  text-align: center
+}
+
+/* Navigation links */
+
+
+.navbar p {
+  float: center;
+  padding: 75px;
+  color: #0f1420;
+  text-decoration: none;
+  font-size: 18px;
+  width: 18%; 
+  text-align: center; 
+}
+
+/* Add a background color on mouse-over */
+
+.navbar p:hover {
+  background-color: #FFFFFF;
+}
+
+/* Style the current/active link */
+
+
+.navbar p.active {
+  background-color: #FFFFFF;
+}
+
+
 /* Cafe Page */
+
+.menu-layout {
+    text-align: center;
+}
+
+hr {
+    width: 50% 
+}
