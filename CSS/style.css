@@ -27,7 +27,6 @@ body nav {
 .navbar {
   width: 100%;
   background-color: #c3d0d2;
-  overflow: auto; 
   text-align: center;
 }
 
@@ -85,8 +84,6 @@ hr {
     width: 40%; 
     border-color: #2f4456;
 }
-
-/* Mobile */
 
 /* Events Page */
 
