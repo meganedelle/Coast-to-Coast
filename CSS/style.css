@@ -58,6 +58,15 @@ a {
   background-color: #FFFFFF;
 }
 
+a:visited { 
+	text-decoration: none; 
+ 	color: #0f1420; 
+}
+
+a:active { 
+	text-decoration: none; 
+	color:white; 
+}
 
 /* Cafe Page */
 
@@ -78,3 +87,81 @@ hr {
 }
 
 /* Mobile */
+
+/* Events Page */
+
+/* Create two equal columns that floats next to each other */
+* {
+  box-sizing: border-box;
+}
+.column-1 ul li {
+}
+.event-title h3 img {
+    float: left;
+}
+.event-item .event-title h3 {
+    text-align: center;
+}
+.event-item .event-sub-title p {
+    text-align: center;
+}
+.column-1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  font-family: "Avenir Heavy", "Avenir Black", "Avenir Light";
+}
+.column-1 p {
+  font-family: "Avenir Light";
+}
+.column-2 {
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Style the calendar-table */
+
+body section table {
+	background-color: #DCEBE8;
+	border-spacing: 5px;
+	table-layout: fixed;
+	width: 100%;
+	float: right;
+	vertical-align: top;
+	
+}
+.label {
+    text-align: center;
+	font-family: "Avenir Heavy";
+	font-size: 18px;
+}
+thead tr th {
+    font-family: "Avenir Heavy", "Avenir Black", "Avenir Light";
+    color: #0f1420;
+	background-color: #FFFFFF;
+}
+.label {
+    font-family: "Avenir Heavy;
+    color: #0f1420;
+	background-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+tbody tr td {
+    color: #0f1420;
+    font-family: "Avenir Light";
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 30px;
+    width: fixed;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If we want the text to be left-aligned on small screens */
+  }
