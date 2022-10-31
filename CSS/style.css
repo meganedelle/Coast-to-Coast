@@ -142,7 +142,7 @@ thead tr th {
 	background-color: #FFFFFF;
 }
 .label {
-    font-family: "Avenir Heavy;
+    font-family: "Avenir Heavy";
     color: #0f1420;
 	background-color: #FFFFFF;
     font-weight: bold;
@@ -163,5 +163,7 @@ tbody tr td {
     float: none;
     display: block;
     width: 100%;
-    text-align: left; /* If we want the text to be left-aligned on small screens */
-  }
+    text-align: left; 
+  } }
+    
+    /* If we want the text to be left-aligned on small screens */
