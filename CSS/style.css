@@ -16,7 +16,7 @@ body header {
 
 body nav p {
     display: inline;
-	font-family: "Avenir Heavy", "Avenir Black",    "Avenir Light";
+	font-family: "Avenir Heavy", "Avenir Black", "Avenir Light";
 }
 
 
@@ -27,6 +27,7 @@ body nav {
 .navbar {
   width: 100%;
   background-color: #c3d0d2;
+  overflow: auto; 
   text-align: center;
 }
 
@@ -64,7 +65,7 @@ a:visited {
 
 a:active { 
 	text-decoration: none; 
-	color:white; 
+	color: white; 
 }
 
 /* Cafe Page */
