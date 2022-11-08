@@ -66,6 +66,21 @@ a:active {
 	text-decoration: none; 
 	color:white; 
 }
+/* Style the footer  */
+
+.footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 160px;
+    background-color: #2f4456;
+    color: #FFFFFF;
+    text-align: center;
+    z-index: -1;
+}
 
 /* Cafe Page */
 
