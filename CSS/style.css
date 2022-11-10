@@ -21,7 +21,9 @@ body nav p {
 
 
 body nav {
+	 text-align: center;
 	 display: inline;
+	 
 }
 
 .navbar {
