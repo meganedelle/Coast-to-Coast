@@ -67,6 +67,20 @@ a:active {
 	color:white; 
 }
 
+/*Staff-picks Page*/
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20pdx;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Cafe Page */
 
 .menu-layout {
