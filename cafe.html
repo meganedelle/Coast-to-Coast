@@ -9,12 +9,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<header>
+<div id="header" role="banner"><header>
     <img src="images/ctc-logo.png" width="512" height="384" alt="store logo">
-</header>
+    </header></div>
 <!-- The navigation menu -->
 <nav>
-    <div class="navbar">
+    <div class="navbar" role="navigation">
     <p><a href="index.html">Home</a></p> 
     <p><a href="staff-picks.html">Staff Picks</a></p>
     <p><a href="events.html">Events</a></p>
@@ -22,8 +22,8 @@
     <p><a href="contact.html">Contact Us</a></p>
     </div>
 </nav>
-<main>
-        <div class="column">
+<main><div role="main">
+        <div class="column" role="left-column" aria-label="menu">
         <div class="menu-layout">
         <h2>Coffee Coffee Coffee...etc.</h2>
         <h3>Espresso Drinks</h3>
@@ -73,7 +73,7 @@
             <hr>
     </div>
     </div>
-    <div class="column">
+    <div class="column" role="right-column" aria-label="menu">
         <div class="menu-layout">
             <h2>Food</h2>
             <h3>Sweet Treats</h3>
@@ -102,9 +102,9 @@
             <img src= "images/pupcup.png" width="30%" height="60%" alt="puppy eating whip cream from a cup">
         </div>
     </div>
-
+    </div>
 </main>
-<footer class="footer">
+<div role="content-info"><footer class="footer">
     <h3>Coast to Coast © 2022</h3>
         <ul>
             <li>Address: 6978 Kapall Dr, Gig Harbor, WA 98335</li>
@@ -112,6 +112,7 @@
             <li>Email: ctc@thisisafakeemail.com</li>
             <li>Store Hours: 9am-7pm PST M-F; 11am-4pm PST Saturday</li>
         </ul>
+    </div>
 </footer>   
 </body>
 </html>
