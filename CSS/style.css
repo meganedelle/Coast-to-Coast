@@ -17,9 +17,9 @@ body {
   padding-bottom: 6.74rem;
   box-sizing: inherit;
   position: relative;
-  display: flex; flex-direction: column;}
-
-article { flex:1; }
+  flex-direction: column;
+}
+article{ flex: 1;}
 
 main {
   width: 80%;
@@ -98,7 +98,8 @@ a:active {
     right: 0;
     left: 0;
     bottom: 0;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 151px;
@@ -110,17 +111,6 @@ a:active {
 
 /*Staff-picks Page*/
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 20pdx;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* Cafe Page */
 
