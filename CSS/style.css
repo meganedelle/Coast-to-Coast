@@ -1,7 +1,30 @@
 /* General Settings */
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 ul {
     list-style: none;
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 6.74rem;
+  box-sizing: inherit;
+  position: relative;
+  display: flex; flex-direction: column;}
+
+article { flex:1; }
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 32px;
 }
 
 /* Style the logo-header */
@@ -15,13 +38,15 @@ body header {
 
 
 body nav p {
-    display: inline;
+  display: inline;
 	font-family: "Avenir Heavy", "Avenir Black",    "Avenir Light";
 }
 
 
 body nav {
+	 text-align: center;
 	 display: inline;
+	 
 }
 
 .navbar {
@@ -66,6 +91,22 @@ a:active {
 	text-decoration: none; 
 	color:white; 
 }
+/* Style the footer  */
+
+.footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 25px;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 151px;
+    font-size: 16px;
+    background-color: #2f4456;
+    color: #FFFFFF;
+    text-align: center;
+}
 
 /*Staff-picks Page*/
 
@@ -92,6 +133,7 @@ a:active {
     list-style: none;
     line-height: 1.5em;
     font-size: 16px;
+    text-align: center;
 }
 
 hr {
@@ -105,8 +147,7 @@ hr {
 * {
   box-sizing: border-box;
 }
-.column-1 ul li {
-}
+
 .event-title h3 img {
     float: left;
 }
@@ -166,6 +207,16 @@ tbody tr td {
 	text-align: center;
 	padding: 30px;
     width: fixed;
+}
+
+/* Where you need padding */
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 1.5em;
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
