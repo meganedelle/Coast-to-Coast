@@ -16,7 +16,10 @@ body {
   padding: 0;
   padding-bottom: 6.74rem;
   box-sizing: inherit;
-}
+  position: relative;
+  display: flex; flex-direction: column;}
+
+article { flex:1; }
 
 main {
   width: 80%;
@@ -91,15 +94,15 @@ a:active {
 /* Style the footer  */
 
 .footer {
-    position: fixed;
+    position: absolute;
     right: 0;
     left: 0;
     bottom: 0;
     padding-bottom: 25px;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 160px;
-    font-size: 18px;
+    height: 151px;
+    font-size: 16px;
     background-color: #2f4456;
     color: #FFFFFF;
     text-align: center;
