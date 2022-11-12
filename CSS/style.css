@@ -110,18 +110,23 @@ a:active {
 
 /*Staff-picks Page*/
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 20pdx;
-}
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+ 
+  .image {
+    flex-basis: 50%
+  }
+  
+  .text {
+    font-size: 16px;
+    padding-left: 30px;
+  }
 
+ 
 /* Cafe Page */
 
 .menu-layout {
