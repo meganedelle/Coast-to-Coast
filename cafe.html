@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coast to Coast Cafe</title>
     <meta description="Coast to Coast Cafe is a small cafe selling locally roasted coffee and espresso drinks and light snacks within the bookstore">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
-<header>
+<div id="header" role="banner"><header>
     <img src="images/ctc-logo.png" width="512" height="384" alt="store logo">
-</header>
+    </header></div>
+<!-- The navigation menu -->
 <nav>
-    <div class="navbar">
-             <p><a href="index.html">Home</a></p>
-             <p><a href="staff-picks.html">Staff Picks</a></p>
-             <p><a href="events.html">Events</a></p>
-             <p><a href="cafe.html">Cafe</a></p>
-        </ul>
+    <div class="navbar" role="navigation">
+    <p><a href="index.html">Home</a></p> 
+    <p><a href="staff-picks.html">Staff Picks</a></p>
+    <p><a href="events.html">Events</a></p>
+    <p><a href="cafe.html">Café</a></p>
+    <p><a href="contact.html">Contact Us</a></p>
     </div>
 </nav>
 <main>
+    <div role="main">
+        <div class="column" role="left-column" aria-label="menu">
         <div class="menu-layout">
         <h2>Coffee Coffee Coffee...etc.</h2>
         <h3>Espresso Drinks</h3>
@@ -69,18 +72,47 @@
               <li>Oat, Almond, Soy</li>
             </ul>
             <hr>
-        <h3>Puppuccino!</h3>
+    </div>
+    </div>
+    <div class="column" role="right-column" aria-label="menu">
+        <div class="menu-layout">
+            <h2>Food</h2>
+            <h3>Sweet Treats</h3>
+            <ul class="ul">
+                <li>Homemade Sweet Breads</li>
+                <li>Pastries</li>
+                <li>Cookies</li>
+                <li>Cupcakes</li>
+            </ul>
+            <hr>
+            <h3>Breakfast</h3>
+            <ul class="ul">
+                <li>Bagels</li>
+                <li>Oatlmeal</li>
+                <li>Breakfast Burritos</li>
+            </ul>
+            <hr>
+            <h3>Lunch</h3>
+            <ul class="ul">
+                <li>Salads</li>
+                <li>Sandwiches</li>
+                <li>Vegetarian Snack Boxes</li>
+            </ul>
+            <hr>
+            <h3>Special: Puppuccino!</h3>
+            <img src= "images/pupcup.png" width="30%" height="60%" alt="puppy eating whip cream from a cup">
+        </div>
+    </div>
     </div>
 </main>
-<footer>
-    <div>
-        <h3>Coast to Coast</h3>
-            <ul>
-                <li>Address: 6978 Kapall Dr, Gig Harbor, WA 98335</li>
-                <li>Phone: 253-155-1105</li>
-                <li>Email: ctc@thisisafakeemail.com</li>
-                <li>Store Hours: 9am-7pm PST M-F; 11am-4pm PST Saturday</li>
-            </ul>
+<div role="content-info"><footer class="footer">
+    <h3>Coast to Coast © 2022</h3>
+        <ul>
+            <li>Address: 6978 Kapall Dr, Gig Harbor, WA 98335</li>
+            <li>Phone: 253-155-1105</li>
+            <li>Email: ctc@thisisafakeemail.com</li>
+            <li>Store Hours: 9am-7pm PST M-F; 11am-4pm PST Saturday</li>
+        </ul>
     </div>
 </footer>   
 </body>
