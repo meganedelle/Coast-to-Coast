@@ -110,7 +110,7 @@ a:active {
 .column {
   float: left;
   width: 50%;
-  padding: 20pdx;
+  padding: 20px;
 }
 
 .row:after {
@@ -134,7 +134,7 @@ a:active {
 }
 
 hr {
-    width: 40%; 
+    width: 60%; 
     border-color: #2f4456;
 }
 
