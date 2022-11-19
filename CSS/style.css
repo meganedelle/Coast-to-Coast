@@ -95,14 +95,15 @@ a:active {
     right: 0;
     left: 0;
     bottom: 0;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 160px;
+    height: 200px;
     font-size: 18px;
     background-color: #2f4456;
     color: #FFFFFF;
     text-align: center;
+    line-height: 1.5em;
 }
 
 /*Staff-picks Page*/
