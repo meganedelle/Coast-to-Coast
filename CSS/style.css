@@ -11,13 +11,12 @@ ul {
 
 body { 
   font-family: Arial, Helvetica, sans-serif;
-  min-height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   padding-bottom: 6.74rem;
   box-sizing: inherit;
   position: relative;
-  flex-direction: column;
 }
 article{ flex: 1;}
 
@@ -51,7 +50,6 @@ body nav {
 .navbar {
   width: 100%;
   background-color: #c3d0d2;
-  overflow: auto; 
   text-align: center;
 }
 
@@ -93,12 +91,15 @@ a:active {
 }
 /* Style the footer  */
 
+.content-wrap{
+  padding-bottom: 200px;
+}
 .footer {
     position: absolute;
     right: 0;
     left: 0;
     bottom: 0;
-    margin-bottom: 25px;
+    margin-top: auto;
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 200px;
@@ -224,9 +225,9 @@ tbody tr td {
 
 /* Where you need padding */
 
-.container {
-  padding-left: 50px;
-  padding-right: 50px;
+.padding {
+  padding-left: 25px;
+  padding-right: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
   line-height: 1.5em;
