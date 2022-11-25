@@ -98,19 +98,30 @@ a:active {
     right: 0;
     left: 0;
     bottom: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 25px;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 151px;
-    font-size: 16px;
+    height: 200px;
+    font-size: 18px;
     background-color: #2f4456;
     color: #FFFFFF;
     text-align: center;
+    line-height: 1.5em;
 }
 
 /*Staff-picks Page*/
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Cafe Page */
 
@@ -127,7 +138,7 @@ a:active {
 }
 
 hr {
-    width: 40%; 
+    width: 60%; 
     border-color: #2f4456;
 }
 
