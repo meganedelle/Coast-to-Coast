@@ -112,12 +112,10 @@ a:active {
   display: inline;
   align-items: center;
   justify-content: center;
-  float: right;
 }
 
 .image {
   flex-basis: 50%
-  float: left;
 }
 
 .text {
