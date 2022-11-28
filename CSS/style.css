@@ -117,6 +117,9 @@ a:active {
 .image {
   flex-basis: 50%
 }
+.fig-caption {
+	text-align: center;
+}
 
 .text {
   font-size: 16px;
