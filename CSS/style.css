@@ -126,17 +126,6 @@ a:active {
   padding-left: 30px;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* Cafe Page */
 
