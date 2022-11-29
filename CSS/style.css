@@ -120,13 +120,23 @@ a:active {
 
 .text {
   font-size: 16px;
-  padding-left: 30px;
 }
 
 .column {
   float: left;
   width: 50%;
   padding: 20px;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.book-author {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 
@@ -145,8 +155,8 @@ a:active {
 }
 
 hr {
-    width: 60%; 
-    border-color: #2f4456;
+    width: 70%; 
+    background-color: #2f4254;
 }
 
 .column {
