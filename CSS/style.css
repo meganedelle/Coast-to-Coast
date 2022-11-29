@@ -248,4 +248,8 @@ tbody tr td {
     text-align: left; 
   } }
     
-    /* If we want the text to be left-aligned on small screens */
+    /* Center Contact Form */
+
+  .center {
+    text-align: center;
+  }
